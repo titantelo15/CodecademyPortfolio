@@ -295,10 +295,10 @@ h1 {
 }
 
 .intro img {
-  flex-basis: 25%;
-  width: 100%;
+  width: 30%;
   box-shadow: 3px 3px 5px #2c2b29;
-  /* padding: 2rem; */
+  margin-left: 10%;
+  border-radius: 25px;
 }
 
 .intro p {
@@ -319,10 +319,15 @@ form {
   font-variant-caps: petite-caps;
 }
 
+input {
+  height: 1.5rem;
+}
+
 input[type="submit"]{
   width: 50%;
   align-self: center;
   cursor: pointer;
+  margin: 1rem 0 0 0;
 }
 
 .extra {
@@ -428,5 +433,6 @@ input[type="submit"]{
 
   .intro img {
     width: 50%;
+    margin-left: 0;
   }
 }
